@@ -1,7 +1,7 @@
 import openai
 import json
 
-openai.api_key = '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'
+openai.api_key = 'API'
 
 def get_prompt():
     while True:

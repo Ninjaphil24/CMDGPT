@@ -75,7 +75,7 @@ class CommandLineTool:
 
     def get_ai_suggestion(self, instruction):
         conversation = self.conversation.get("1.0", tk.END) + "You: " + instruction
-        openai.api_key = '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'
+        openai.api_key = 'API'
         response = openai.Completion.create(
             engine="text-davinci-003",
             prompt=conversation,

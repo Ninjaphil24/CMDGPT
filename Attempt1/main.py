@@ -2,7 +2,7 @@ import openai
 import subprocess
 import PySimpleGUI as sg
 
-openai.api_key = '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'
+openai.api_key = 'API'
 
 def generate_response(prompt, engine='text-davinci-003'):
     response = openai.Completion.create(
